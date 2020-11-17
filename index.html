@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Profile card component</title>
+
+  <!-- Tailwind CSS -->
+  <link rel="stylesheet" href="./css/output.css">
+</head>
+<body class="font-body bg-primary text-dark overflow-hidden">
+
+  <!-- Circle Shapes -->
+  <img src="./images/bg-pattern-top.svg" class="fixed w-622 h-621 lg:w-978 lg:h-976 -top-65% -left-45% lg:-top-75% lg:-left-20%">
+  <img src="./images/bg-pattern-bottom.svg" class="fixed w-622 h-621 lg:w-978 lg:h-976 -bottom-45% -right-55% lg:-bottom-88% lg:-right-15%">
+
+  <!-- Container -->
+  <div class="h-screen flex justify-center items-center relative">
+
+    <!-- Profile Card -->
+    <div class="bg-white shadow-xl rounded-lg overflow-hidden w-full max-w-xs mx-6">
+
+      <!-- Profile Card - Background -->
+      <img src="./images/bg-pattern-card.svg" alt="" class="h-32 w-full object-cover">
+
+      <!-- Profile Card - Person Image -->
+      <img src="./images/image-victor.jpg" alt="A Photo of Victor Crest" class="w-24 h-24 rounded-full border-white border-4 mx-auto -mt-12 relative">
+
+      <!-- Profile Card - Person Data -->
+      <div class="rounded text-center mt-6">
+        <h3 class="font-bold text-lg">
+          Victor Crest
+          <span class="font-normal text-grey">26</span>
+        </h3>
+        <small class="text-sm text-grey">London</small>
+      </div>
+
+      <!-- Profile Card - Account Data -->
+      <div class="mt-6 border-lightGrey border-t-2 py-6 px-12">
+        <ul class="flex justify-between text-center">
+          <li>
+            <span class="text-lg font-bold block">80K</span>
+            <small class="text-xxs tracking-widest text-grey">Followers</small>
+          </li>
+          <li>
+            <span class="text-lg font-bold block">803K</span>
+            <small class="text-xxs tracking-widest text-grey">Likes</small>
+          </li>
+          <li>
+            <span class="text-lg font-bold block">1.4K</span>
+            <small class="text-xxs tracking-widest text-grey">Photos</small>
+          </li>
+        </ul>
+      </div>
+    
+    </div>
+  </div>
+
+  <!-- Attribution -->
+  <div class="fixed bottom-0 w-full text-center text-white pb-2">
+    Challenge by <a class="underline" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a class="underline" href="https://github.com/simonhernandez" target="_blank">Simon</a>.
+  </div>
+
+</body>
+</html>
