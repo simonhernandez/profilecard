@@ -6,13 +6,6 @@ module.exports = {
   purge: [],
   theme: {
 
-    maxWidth: {
-      xs: '21.875rem',
-    },
-    height: {
-      '35': '8.75rem'
-    },
-
     extend: {
       colors: {
         primary: '#19A1AE',
@@ -50,7 +43,11 @@ module.exports = {
       height: {
         '621': '621px',
         '976': '976px',
-      }
+        '35': '8.75rem'
+      },
+      maxWidth: {
+        xs: '21.875rem',
+      },
     },
   },
   variants: {},
